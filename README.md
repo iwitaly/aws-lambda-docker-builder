@@ -17,7 +17,7 @@ Don't forget to replace *your_name* and *your_tag* to whatever you want.
 Then run your container and mount local folder with a desired ``` requirements.txt ``` file to a containers ```/workdir_container``` with a command
 
 ```
-docker run --rm -v your_folder_with_requirements_file:/workdir_container iwitaly/aws
+docker run --rm -v your_folder_with_requirements_file:/workdir_container your_name/your_tag
 ```
 
 Now wait for packages to be built and find them at ```your_folder_with_requirements_file/vendored/```.
